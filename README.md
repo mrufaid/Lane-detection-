@@ -16,6 +16,7 @@ This repository contains Python code for lane detection in images and videos usi
 2. Replace video path in the script with the path to your desired input video.
 3. Adjust parameters as necessary for video processing and lane detection.
 4. Execute the script to display the video with detected lanes. Press 'q' to exit the video window.
+![download](https://github.com/mrufaid/Lane-detection-/assets/148202250/65ab0d46-654a-47a5-9248-77d6d1e674cb)
 
 ### Files
 
