@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+
 
 
 import cv2
@@ -102,6 +102,7 @@ combo_image = cv2.addWeighted(lane_image, 0.8, line_image, 1, 1)
 plt.imshow(combo_image)
 plt.show()
 
+#for lane detection in a continous video stream
 cap = cv2.VideoCapture(r"C:\Users\admin\Desktop\test6.mp4")
 while(cap.isOpened()):
     _, frame = cap.read()
